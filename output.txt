@@ -1,0 +1,8 @@
+Scheduling Algorithm SJF:
+Process ID	Response Time	Turnaround Time	Waiting Time
+1				0				14			0
+2				2				28			12
+3				7				37			16
+Average Turnaround Time: 26.3333
+Average Response Time: 3
+Average Waiting Time: 9.33333
