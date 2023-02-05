@@ -1,0 +1,2 @@
+# cpu-scheduling
+fcfs, sjf
