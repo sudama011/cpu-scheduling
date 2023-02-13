@@ -1,8 +1,26 @@
-Scheduling Algorithm SJF:
+
+0-3->PQ1 
+3-6->PQ2 IQ1 
+6-9->PQ3 IQ2 
+9-12->PQ1 
+12-15->PQ3 OQ1 
+15-18->PQ2 IQ3 
+18-21->PQ1 
+21-24->PQ2 OQ1 
+24-27->PQ3 OQ2 
+27-30->PQ1 OQ3 
+30-33->PQ2 OQ1 
+33-36->PQ3 OQ2 
+36-39->PQ1 
+39-42->PQ3 
+42-45->PQ2 OQ3 
+45-48->PQ3 
+48-51->OQ3 
+51-54->PQ3 
 Process ID	Response Time	Turnaround Time	Waiting Time
-1				0				14			0
-2				2				28			12
-3				7				37			16
-Average Turnaround Time: 26.3333
-Average Response Time: 3
-Average Waiting Time: 9.33333
+1				0				37			12
+2				2				42			25
+3				4				50			20
+Average Turnaround Time: 43
+Average Response Time: 2
+Average Waiting Time: 19
